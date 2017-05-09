@@ -49,7 +49,7 @@ public class App
         }
             public static void main( String[] args )
             {
-            	Account Acc1=new Account(1, "Santosh", 4.4);
+            	Account Acc=new Account(1, "Santosh", 4.4);
             }
         
     

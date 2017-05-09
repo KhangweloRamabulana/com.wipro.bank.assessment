@@ -26,7 +26,7 @@ public class AppTest {
 		assertNull(new App().getAccountDetailsByID(567));
 	}
 	
-	@Test
+	/*@Test
 	public void testGetAccountDetailsByID2() {
 		App.accounts.add(new Account (1,"acc1",101.11));		
 		App.accounts.add(new Account (3,"acc3",303.33));
@@ -36,7 +36,7 @@ public class AppTest {
 		assertNotNull(acc);
 		assertEquals("patel",acc.getUserName());
 	}
-	
+	*/
 	@Test
 	public void getAccountDetailsByBalance1(){
 		App.accounts.add(new Account (1,"acc1",101.11));		
